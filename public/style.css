@@ -1,0 +1,127 @@
+/* Hides elements with the hidden class */
+.hidden {
+  display: none;
+}
+
+/* Style for the form container */
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Style for select, input, textarea, and button elements */
+select,
+input,
+textarea,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Disabled button style */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Style for the unordered list containing logs */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for each log item in the list */
+ul li {
+  background-color: #a7a7a7;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for small date text in logs */
+ul li small {
+  font-size: 12px;
+  color: rgb(250, 250, 250);
+}
+
+/* Style for preformatted text in logs */
+ul li pre {
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+}
+
+/* Hover effect for log items */
+ul li:hover {
+  background-color: rgb(80, 118, 86);
+}
+
+#uvuIdDisplay {
+  color: rgb(80, 118, 86);
+}
+
+#addLogBtn:hover {
+  background-color: rgb(80, 118, 86);
+}
+
+/* Global Light and Dark Mode Styles */
+body.light-mode {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: rgb(24, 65, 34);
+  color: #fff;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  text-align: center;
+}
+
+.dark-mode .modal-content {
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.light-mode button {
+  background-color: #ddd;
+  color: #000;
+}
+
+.dark-mode button {
+  background-color: #444;
+  color: #fff;
+}
